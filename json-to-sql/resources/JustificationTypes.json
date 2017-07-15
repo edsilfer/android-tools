@@ -1,0 +1,58 @@
+[
+  {
+    "answerType": "NONE",
+    "description": "Ajuste os horarios necessarios para a correcao da sua folha de ponto",
+    "id": 0,
+    "name": "Falha no TradeForce",
+    "remoteId": 0
+  },
+  {
+    "answerType": "BOTH",
+    "description": "Ajuste os horarios necessarios para a correcao da sua folha de ponto",
+    "id": 1,
+    "name": "Aparelho sem bateria",
+    "remoteId": 1
+  },
+  {
+    "answerType": "START",
+    "description": "Ajuste os horarios necessarios para a correcao da sua folha de ponto",
+    "id": 2,
+    "name": "Transito ou congestionamento",
+    "remoteId": 2
+  },
+  {
+    "answerType": "START",
+    "description": "Ajuste os horarios necessarios para a correcao da sua folha de ponto",
+    "id": 3,
+    "name": "Acidente de trabalho",
+    "remoteId": 3
+  },
+  {
+    "answerType": "END",
+    "description": "Ajuste os horarios necessarios para a correcao da sua folha de ponto",
+    "id": 4,
+    "name": "Emergencia familiar",
+    "remoteId": 4
+  },
+  {
+    "answerType": "END",
+    "description": "Ajuste os horarios necessarios para a correcao da sua folha de ponto",
+    "id": 5,
+    "name": "Consulta medica atestado",
+    "remoteId": 5
+  },
+  {
+    "answerType": "OTHER",
+    "description": "Ajuste os horarios necessarios para a correcao da sua folha de ponto",
+    "id": 6,
+    "name": "Acordo com superior",
+    "remoteId": 6
+  },
+  {
+    "answerType": "OTHER",
+    "description": "Favor especificar o motivo da inconsistencia de dados",
+    "id": 0,
+    "name": "Outros",
+    "remoteId": 0
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "adjustmentRequest": "Needs Justification ABC",
+    "date": 1498705200000,
+    "end": 1497906048578,
+    "endWork": 86340000,
+    "id": 1,
+    "accepted": false,
+    "justified": false,
+    "locallyJustified": false,
+    "remoteId": 1,
+    "start": 46340000,
+    "startWork": 1497866448578,
+    "weekday": 1,
+    "timesheetId" : 0
+  }
+]
