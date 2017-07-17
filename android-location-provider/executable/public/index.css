@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 92%;
+    width: 100%;
+    background: #fff;
+}
+
+#vertical-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%
+}
+
+#left-panel {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 25%;
+    height: 100%;
+    background: #fafafa;
+}
+
+#map {
+  height: 65%;
+  width: 100%;
+}
+
+#console-container {
+    height: 35%;
+    width: 100%;
+}
+
+#console {
+    height: 100%;
+    width: 100%;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    font-size: 11px;
+    background: url(http://i.imgur.com/2cOaJ.png);
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 10px;
+    border-color:#ccc;
+}
+
+.labels {
+  color: white;
+  background-color: red;
+  font-family: "Lucida Grande", "Arial", sans-serif;
+  font-size: 10px;
+  text-align: center;
+  width: 30px;
+  white-space: nowrap;
+}
+
+#webmaster {
+    margin-top: auto;
+    font-size: 10px;
+    text-align: center;
+}
+

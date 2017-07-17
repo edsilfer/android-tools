@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+</head>
+
+<body onLoad="$(document).ready(function() {$('select').material_select();});">
+
+<nav>
+    <div class="nav-wrapper blue darken-4">
+        <a href="#" style="margin-left: 20px;" class="brand-logo">Android Emulator Location Provider</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="https://www.linkedin.com/in/edsilfer/">Meet the author</a></li>
+            <li><a href="https://github.com/edsilfer/location-provider">Fork me</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="main-container">
+    <div id="left-panel">
+        <label>Select a device</label>
+        <div class="input-field">
+            <select id="devices">
+                <option value="">Choose a device</option>
+            </select>
+        </div>
+
+        <label>Choose a location provider</label>
+        <div class="input-field">
+            <select id="providers">
+                <option value="0">Network</option>
+            </select>
+        </div>
+
+        <label>Send position on click</label>
+        <div class="switch">
+            <label>
+                Off
+                <input id="sendOnClick" type="checkbox" checked="checked">
+                <span class="lever "></span>
+                On
+            </label>
+        </div>
+
+        <button class="btn waves-effect waves-light" style="margin-top: 32px;" type="submit" name="action" onCLick="onSendLocationClick()">SEND LOCATION
+        </button>
+
+        <span id="webmaster">Developed by Edgar S Fernandes</span>
+    </div>
+    <div id="vertical-container">
+        <div id="map"></div>
+        <div id="console-container">
+            <textarea id="console" disabled></textarea>
+        </div>
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=INSERT_YOUR_API_HERE&callback=initMap"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+</body>
+</html>

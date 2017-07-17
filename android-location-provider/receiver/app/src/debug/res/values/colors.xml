@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6a1b9a</color>
+    <color name="colorPrimaryDark">#38006b</color>
+    <color name="colorAccent">#9c4dcc</color>
+
+    <!-- TEXT -->
+    <color name="color_text_green">#006D5B</color>
+    <color name="color_text_location">#994029</color>
+    <color name="color_text_toolbar_title">#606060</color>
+
+    <!-- CIRCLE -->
+    <color name="color_circle_border">#38006b</color>
+    <color name="color_circle_fill">#306a1b9a</color>
+    <color name="color_existing_place_circle_border">#FF8E29</color>
+    <color name="color_existing_place_circle_fill">#30FF8E29</color>
+
+</resources>

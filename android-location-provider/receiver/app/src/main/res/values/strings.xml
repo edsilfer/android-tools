@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">location-receiver</string>
+    <string name="title_activity_map">Map</string>
+    <string name="loading">Loading…</string>
+</resources>
