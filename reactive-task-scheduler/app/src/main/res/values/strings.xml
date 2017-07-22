@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">task-scheduler</string>
+
+    <string name="str_main_view_disclaimer">Sample application to test the behavior of task scheduler</string>
+    <string name="str_dummy_view_disclaimer">This is a dummy view</string>
+
+    <string name="str_scheduler_finished_successfully">Scheduler finished its job in: %s</string>
+    <string name="str_scheduler_finished_unsuccessfully">Scheduler could not finish its job. Error:  %s</string>
+    <string name="str_sample_ui_task_description">A sample UI task that launch an Activity</string>
+</resources>
