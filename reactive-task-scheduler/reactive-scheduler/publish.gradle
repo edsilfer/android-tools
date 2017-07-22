@@ -1,0 +1,52 @@
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+ext {
+    // BINTRAY CREDENTIALS
+    bintrayRepo = 'maven'
+    bintrayName = 'reactive-scheduler'
+    publishedGroupId = 'br.com.edsilfer.android'
+    artifact = bintrayName
+
+    libraryName = 'Reactive Task Scheduler'
+    libraryVersion = '1.0.0'
+    libraryDescription = 'provides an easy way to schedule tasks to be performed sequentially in a ' +
+            'reactive pipe, allowing client to check execution logs as well as deciding which of ' +
+            'them should interrupt the pipe.'
+
+    // URL
+    siteUrl = 'https://github.com/edsilfer/android-tools/reactive-task-scheduler'
+    gitUrl = 'https://github.com/edsilfer/android-tools/reactive-task-scheduler.git'
+    gitIssues = 'https://github.com/edsilfer/android-tools/reactive-task-scheduler.issues'
+
+    // LICENSE INFORMATION
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ['Apache-2.0']
+
+    // DEVELOPER INFORMATIONS
+    developerName = 'Edgar S Fernandes'
+    developerId = 'edsilfer'
+    developerEmail = 'fernandes.s.edgar@gmail.com'
+
+    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+    apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+}
+
+bintray {
+    user = properties.getProperty('bintray.user')
+    key = properties.getProperty('bintray.apikey')
+
+    configurations = ['published', 'archives']
+
+    pkg {
+        repo = bintrayRepo
+        name = bintrayName
+        desc = libraryDescription
+        websiteUrl = gitUrl
+        issueTrackerUrl = gitIssues
+        vcsUrl = gitUrl
+        labels = ['android', 'reactive', 'task', 'scheduler']
+        publicDownloadNumbers = true
+    }
+}
