@@ -1,0 +1,200 @@
+{
+  "dueDate": 1497225600000,
+  "deadline": 1497312000000,
+  "days": [
+    {
+      "id": 1,
+      "date": 1496016000000,
+      "weekday": 1,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": 32400000,
+      "endWork": 61200000,
+      "isJustified": true,
+      "isAccepted": true,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 2,
+      "date": 1496102400000,
+      "weekday": 2,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": 32400000,
+      "endWork": 68400000,
+      "isJustified": true,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 15,
+      "date": 1496188800000,
+      "weekday": 3,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": true,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 16,
+      "date": 1496275200000,
+      "weekday": 4,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": true,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 17,
+      "date": 1496361600000,
+      "weekday": 5,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": true,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 18,
+      "date": 1496448000000,
+      "weekday": 6,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": true,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 19,
+      "date": 1496534400000,
+      "weekday": 7,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": true,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 20,
+      "date": 1496620800000,
+      "weekday": 1,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": false,
+      "isAccepted": false,
+      "adjustmentRequest": "Necessário Justificar"
+    },
+    {
+      "id": 13,
+      "date": 1496707200000,
+      "weekday": 2,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": 33540000,
+      "endWork": 64800000,
+      "isJustified": true,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": 21,
+      "date": 1496793600000,
+      "weekday": 3,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": false,
+      "isAccepted": false,
+      "adjustmentRequest": "Necessário Justificar"
+    },
+    {
+      "id": 22,
+      "date": 1496880000000,
+      "weekday": 4,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": false,
+      "isAccepted": false,
+      "adjustmentRequest": "Necessário Justificar"
+    },
+    {
+      "id": null,
+      "date": 1496966400000,
+      "weekday": 5,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": false,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": null,
+      "date": 1497052800000,
+      "weekday": 6,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": false,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    },
+    {
+      "id": null,
+      "date": 1497139200000,
+      "weekday": 7,
+      "start": 32400000,
+      "end": 64800000,
+      "startWork": null,
+      "endWork": null,
+      "isJustified": false,
+      "isAccepted": false,
+      "adjustmentRequest": null
+    }
+  ],
+  "justificationTypes": [
+    {
+      "id": 1,
+      "name": "OTHER",
+      "description": "Texto mobile",
+      "answerType": "OTHER"
+    },
+    {
+      "id": 2,
+      "name": "Faltei",
+      "description": "Texto mobile",
+      "answerType": "NONE"
+    },
+    {
+      "id": 3,
+      "name": "Atrasei pelo transito",
+      "description": "Texto mobile",
+      "answerType": "START"
+    },
+    {
+      "id": 4,
+      "name": "Aparelho",
+      "description": "Texto mobile",
+      "answerType": "BOTH"
+    }
+  ]
+}
