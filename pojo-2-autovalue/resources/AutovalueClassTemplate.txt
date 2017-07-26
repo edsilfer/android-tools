@@ -1,0 +1,19 @@
+package {};
+
+import android.support.annotation.Nullable;
+
+import com.google.auto.value.AutoValue;
+import com.google.gson.Gson;
+import com.google.gson.TypeAdapter;
+import com.google.gson.annotations.SerializedName;
+
+@AutoValue
+public abstract class {} {{
+
+    {}
+
+    public static TypeAdapter<{}> typeAdapter(Gson gson) {{
+        return new AutoValue_{}.GsonTypeAdapter(gson);
+    }}
+
+}}
